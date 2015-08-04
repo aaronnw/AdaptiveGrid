@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AdaptiveGrid</string>
+    <string name="title_activity_main_menu">Main Menu</string>
+    <string name="title_activity_main_view">Main View</string>
+    <string name="hello_world">Hello world!</string>
+    <string name ="button_menu_launch_main_view">Open Grid</string>
+    <string name="action_settings">Settings</string>
 </resources>
