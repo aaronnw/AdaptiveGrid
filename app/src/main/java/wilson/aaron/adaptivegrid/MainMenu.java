@@ -4,13 +4,18 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.GridLayout;
 
 public class MainMenu extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_menu);
+        GridLayout myGrid = new GridLayout(this);
+        Button testButton1 = new Button(this);
+        myGrid.addView(testButton1);
+        setContentView(myGrid);
     }
 
     @Override
