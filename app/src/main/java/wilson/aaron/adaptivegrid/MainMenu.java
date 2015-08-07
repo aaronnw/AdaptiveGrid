@@ -14,7 +14,17 @@ public class MainMenu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         GridLayout myGrid = new GridLayout(this);
         Button testButton1 = new Button(this);
+        testButton1.setText("Button 1");
+
+        Button testButton2 = new Button(this);
+        testButton2.setText("Button 2");
+
+        Button testButton3 = new Button(this);
+        testButton3.setText("Button 3");
+
         myGrid.addView(testButton1);
+        myGrid.addView(testButton2);
+        myGrid.addView(testButton3);
         setContentView(myGrid);
     }
 
